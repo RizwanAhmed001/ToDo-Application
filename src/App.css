@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root{
+  width: 100vw;
+  height: 100vh;
+  padding-top: 50px;
+  background-image: linear-gradient(90deg,rgba(56, 43, 179, 1) 0%, rgba(87, 199, 136, 1) 100%, rgba(112, 203, 125, 1) 53%, rgba(237, 221, 83, 1) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header{
+  font-style: italic;
+  font-size: 2.5rem;
+  color: crimson;
+  margin-bottom: 20px;
+}
+.container{
+  width: 40vw;
+  padding: 10px;
+  min-height: 300px;
+  background-color: white;
+  border-radius: 5px;
+}
+.container-heading{
+  display: flex;
+}
+.icon{
+  margin: 0px 5px;
+  font-size: 1.75rem;
+}
+.search{
+  margin: 2px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ccc;
+  border-radius: 20px;
+}
+.input{
+  background-color: transparent;
+  padding: 10px 10px;
+  width: 80%;
+  border: none;
+  outline: none;
+}
+.btn{
+  background-color: purple;
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 20px;
+  transition: 0.25s all;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: rgb(70, 108, 8);
+  color: white;
+}
+.body{
+  max-height: 200px;
+  overflow-y: scroll;
+}
+.cont-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+.left{
+  display: flex;
+  height: 20px;
+  align-items: center;
+}
+.marker{
+  margin: 0 5px;
+  cursor: pointer;
+}
+.itemName{
+  cursor: pointer;
+}
+.mark{
+  text-decoration: line-through;
+}
+.edit-btn{
+  background-color: transparent;
+  border: none;
+  padding: 0 10px;
+  cursor: pointer;
+  font-size: 1.25rem;
+
+}
+.edit-btn:hover{
+  color: blue;
+
+}
+.delete-btn{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0 10px;
+  font-size: 1.25rem;
+}
+.delete-btn:hover{
+  color: red;
+}
+.empty{
+  padding: 10px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+@media screen and (min-width: 344px) and (max-width: 768px) { 
+    /* STYLES HERE */
+    .container{
+      width: 80vw;
+    }
+}
