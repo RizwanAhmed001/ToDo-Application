@@ -94,7 +94,11 @@ Installation
 bash
 Copy
 Edit
-git clone https://github.com/your-username/react-todo-app.git
+git clone https://github.com/RizwanAhmed001/ToDo-Application.git
+
 cd react-todo-app
 npm install
 npm run dev
+
+/* Link of GitHub repository containing the project.  */
+https://github.com/RizwanAhmed001/ToDo-Application
